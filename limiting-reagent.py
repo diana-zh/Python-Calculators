@@ -1,11 +1,9 @@
 # Diana Zhang, Nov 2020
 # This program calculates which molecule (out of 2) is the limiting reagent.
 
-# This function multiplies 2 numbers.
 def multiply(x, y):
     return x * y
 
-# This function divides 2 numbers.
 def divide(x, y):
     return x / y
 
@@ -17,7 +15,7 @@ coef2 = float(input('Enter coefficient of second molecule: '))
 complete2 = multiply(mol1, divide(coef2, coef1))
 complete1 = multiply(mol2, divide(coef1, coef2))
 
-if complete2 > mol2:
+if complete2 > mol2: # Checking mol ratios of two reactants
     print('\nMolecule 2 is the limiting reagent\n')
 elif complete2 == complete1:
     print('\nThere is no limiting reagent. The molecules are in stoichiometric proportion with each other.\n')
