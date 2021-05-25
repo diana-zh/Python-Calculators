@@ -1,4 +1,8 @@
-These python calculators can be used to quickly perform scientific calculations: 
+# Python Science Calculators
+
+*Bridging my passions for science & programming :)*
+***
+These Python calculators can be used to quickly perform scientific calculations: 
 
 - Chromosome & chromatid numbers after stages of cell division
 - The Ideal Gas Law
